@@ -1943,6 +1943,11 @@ pre code {
 .container:after {
   clear: both;
 }
+@media (max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
